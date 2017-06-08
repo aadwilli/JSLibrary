@@ -11,7 +11,7 @@
 function greeting(){
 	var name = "Patrick"; //variable is local. Removing var from the line will hoist the variable
 	console.log(name +" says \"Helloooo Vietnam!\"");
-}
+} //this is a void function
 //calling the function
 greeting();
 //Challenge declare a function that prints the weather to the console
@@ -27,7 +27,7 @@ function shoes(brand){
 	console.log("Man those " + brand + " are on fleek!")
 }
 shoes("Crocs");
-//functions with multiple parameters
+// void functions with multiple parameters
 function add(num1, num2){
 	console.log(num1 + num2);
 }
@@ -53,6 +53,7 @@ function div(num1, num2) {
 function mod(num1, num2) {
 	return num1 % num2;
 }
+console.log(mod(10,3));
 
 function name(first, last) {
 	console.log(first + last);
@@ -71,6 +72,44 @@ function soda(amount, price, tax) {
 }
 
 console.log(soda(100, .99, 7));
+//create a calculator function that accepts 3 arguments 2 numbers and 1 operator
+//ex. calculator (2,*,2) this should return 4
+//hint! you will need to use conditionals
+
+function calc(num1, operator, num2) {
+	if (operator == "+") {
+		return (num1 + num2);
+	} else if (operator == "-") {
+		return (num1 - num2);
+	} else if (operator == "*") {
+		return (num1 * num2);
+	} else if (operator == "/") {
+		return (num1 / num2);
+	} else if (operator == "%") {
+		return (num1 % num2);
+	} else {
+		return ("Operator not recognized!");
+	}
+}
+console.log(calc(4, "%", 3));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
