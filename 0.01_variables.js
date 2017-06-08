@@ -64,7 +64,7 @@ console.log("Bank account number: " + bankAccount);
 var myNumber = 0;
 myNumber = myNumber + 10;
 console.log(myNumber);
-myNumber = myNumber - 1;
+myNumber =  -- myNumber ;
 console.log(myNumber);
 myNumber = myNumber * 9;
 console.log(myNumber);

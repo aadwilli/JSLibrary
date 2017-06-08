@@ -9,5 +9,5 @@ console.log(3 % 2);
 console.log(9 % 7);
 console.log(36 % 24);
 
-if ()
-console.log()
+
+console.log("is it true that gummy worm is not a number --->" + isNaN("Gummy Worms"))
