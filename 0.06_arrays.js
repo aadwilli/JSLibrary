@@ -1,43 +1,43 @@
 // //Arrays
 // //[]
 // //                   0         1      2        3        4
-// var students = ["Harrison", "Rose", "Ben", "Caitlyn", "Kay"];
+var students = ["Harrison", "Rose", "Ben", "Caitlyn", "Kay"];
 
-// console.log(students[2]);
+console.log(students[2]);
 
-// students[5] = "Nick";
-// console.log(students);
+students[5] = "Nick";
+console.log(students);
 
-// students.push("Aaron");
-// console.log(students);
+students.push("Aaron");
+console.log(students);
 
-// students.pop();
-// console.log(students);
+students.pop();
+console.log(students);
 
 // //For Each Loop
 
-// for (var s in students){
-// 	console.log(students[s])
-// }
+for (var s in students){
+	console.log(students[s])
+}
 // // ^ is an easier way of saying \/
 // console.log(students[0]);
 // console.log(students[1]);
 // console.log(students[2]);
 // console.log(students[3]);
 
-// for (var s in students){
-// 	var uppercase = students[s].toUpperCase();
-// 	console.log(uppercase + " is in the position of: " + s)
-// }
+for (var s in students){
+	var uppercase = students[s].toUpperCase();
+	console.log(uppercase + " is in the position of: " + s)
+}
 
 // //create an array of numbers 1 - 10 then use a for in Loop to print
 // //to the console
 
-// var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// for (var n in numbers){
-// 	console.log(numbers[n]);
-// }
+for (var n in numbers){
+	console.log(numbers[n]);
+}
 // //create a for Loop that pushes numbers into a empty array
 // var numArry = []
 // for (var i = 1; i < 11; i++){
@@ -49,25 +49,25 @@
 
 // //Mixed arrays
 
-// var ranThings = ["Bryce", 45, "Summer", true, []];
-// console.log(ranThings);
+var ranThings = ["Bryce", 45, "Summer", true, []];
+console.log(ranThings);
 
-// var favThings = ["fiance", "cats", "kids", "video games"];
-// var cars = ["Toyota", "Honda", "Ford", "Chevy", "Nissan"];
-// for (var i = 0; i < cars.length; i++){
-// 	console.log(cars[i])
-// }
+var favThings = ["fiance", "cats", "kids", "video games"];
+var cars = ["Toyota", "Honda", "Ford", "Chevy", "Nissan"];
+for (var i = 0; i < cars.length; i++){
+	console.log(cars[i])
+}
 // //Create an array where each element is an array of different lists.
 // //(I.E. 0 is your cars, 1 is your pets, 2 is your children). 
 // //Create a loop to print out every element.
-// var liArry = [favThings, cars, ["Viktor", "Henry"]];
-// for (var i = 0; i < liArry.length; i++){
-//   for (var i in liArry){
-//     for (var n in liArry[i]){
-//       console.log(liArry[i][n]);
-//     }
-//   }
-// }
+var liArry = [favThings, cars, ["Viktor", "Henry"]];
+for (var i = 0; i < liArry.length; i++){
+  for (var i in liArry){
+    for (var n in liArry[i]){
+      console.log(liArry[i][n]);
+    }
+  }
+}
 // //This basically makes a table ex liArry[0][3] where 0 is the x axis and 3 is that y axis
 // //for (var i in liArry){
 // // 	for (var n in liArry[i]){
