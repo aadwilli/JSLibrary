@@ -21,7 +21,7 @@ var isEngaged = true;
 console.log("I have glasses: " + hasGlasses + "\nI am tall: " + isTall + "\nI am engaged: " + isEngaged)
 
 if (1 > 3 || 3 < 5){
-	console.log("Yeeeeeeeah boooy");
+	console.log("Yeeeeeeeah boooy, kinda");
 }
 if (1 > 3 && 3 < 5){
 	console.log("Yeeeeeeeah boooy");
